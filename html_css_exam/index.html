@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>期中考試</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div id="root">
+        <nav class="navbar navbar-expand-md bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">森林照片網站</a>
+                <button class="navbar-toggler" type="button" data-coreui-toggle="collapse"
+                    data-coreui-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">首頁</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">鏈接</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">功能</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">關於我們</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="layyout">
+            <header>
+                <h2>這裡有森林風景圖</h2>
+            </header>
+            <picture>
+                <source media="(min-width: 1400px)" srcset="images/Forest3.jpg" width="1200">
+                <source media="(min-width: 1200px)" srcset="images/Forest3.jpg" width="900">
+                <source media="(min-width: 992px)" srcset="images/Forest2.jpg" width="600">
+                <source media="(min-width: 768px)" srcset="images/Forest2.jpg" width="400">
+                <source media="(min-width: 576px)" srcset="images/Forest1.jpg">
+                <img src="images/Forest1.jpg" alt="YouBike微笑單車">
+            </picture>
+        </div>
+        <script src="js/bootstrap.min.js">
+</body >
+</html >
